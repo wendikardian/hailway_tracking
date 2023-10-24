@@ -4,7 +4,7 @@ import cv2
 
 # Step 14
 # Try to import tracker to apply the object tracking from tracker.py file
-from tracker import *
+from tracker import EuclideanDistTracker
 
 # Step 15
 # Create a tracker object

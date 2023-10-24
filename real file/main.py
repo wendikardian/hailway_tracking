@@ -7,7 +7,7 @@ tracker = EuclideanDistTracker()
 cap = cv2.VideoCapture("highway.mp4")
 
 # Object detection from Stable camera
-object_detector = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=40)
+object_detector = cv2.createBackgroundSubtractorMOG2(history=100, varThreshold=60)
 
 while True:
     ret, frame = cap.read()
